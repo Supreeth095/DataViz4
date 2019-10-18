@@ -1,0 +1,9 @@
+ttk_add_vtk_library(ttkMandatoryCriticalPoints
+  SOURCES
+    ttkMandatoryCriticalPoints.cpp
+  HEADERS
+    ttkMandatoryCriticalPoints.h
+  LINK
+    mandatoryCriticalPoints
+    ttkTriangulation
+    )

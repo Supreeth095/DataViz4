@@ -1,0 +1,9 @@
+ttk_add_vtk_library(ttkScalarFieldSmoother
+  SOURCES
+    ttkScalarFieldSmoother.cpp
+  HEADERS
+    ttkScalarFieldSmoother.h
+  LINK
+    scalarFieldSmoother
+    ttkTriangulation
+    )
