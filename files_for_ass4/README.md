@@ -131,19 +131,6 @@ Screenshot #4:
 
 
 
-Screenshot - of the each individual 2D slices : 
-
-
-![chart1](/files_for_ass4/ANS3/ass3a.png)
-
-
-
-![chart1](/files_for_ass4/ANS3/ass3b.png)
-
-
-![chart1](/files_for_ass4/ANS3/ass3c.png)
-
-
 
 Now we’ll create a linked view in ParaView. To do so, we’ll view the same element of the Pipeline Browser in multiple renders. First, split the view vertically so that you have a top and bottom view. Next, in the bottom view, split it horizontally twice to create 3 small views (get them all of the same size).
 
