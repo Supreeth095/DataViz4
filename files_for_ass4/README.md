@@ -105,7 +105,15 @@ Rotate the dataset and look at the slice from both sides. Note that where you cl
 Slicing along a single axis is not that informative. Sometimes, it’s helpful to create slices along multiple axes at the same time to get a 3D feel of the data. Create two additional slice filters, one aligned on the Y normal and Z normal of dataset and view all three simultaneously. Remember to select the dataset 3d.vti before applying the new slices otherwise you will be slicing an existing slice. Save a screenshot of your result and upload it on github in the folder `files_for_ass4`.
 
 
-Screenshot #1:
+
+Screenshot #1a:
+
+
+![chart1](/files_for_ass4/ANS4/4.2.png)
+
+
+
+Screenshot #1b:
 
 
 ![chart1](/files_for_ass4/ANS3/ans_3-view1.png)
@@ -128,6 +136,8 @@ Screenshot #3:
 Screenshot #4:
 
 ![chart1](/files_for_ass4/ANS3/ans_3-view4.png)
+
+
 
 
 
