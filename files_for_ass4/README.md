@@ -32,6 +32,10 @@ The set of points are now ready but not yet visible. Click on the `RenderView1` 
 
 Now our points are there but it would be nice to have some connections between them. Select the new fitler `Delaunay 2D`. This will compute a triangulation around the points. Change the type of the representation from `Surface` to `Surface With Edges` to see the triangles. This is nice but still not optimal. The shape that these points are representing really indicate two concentric ring. Our triangulation shows something more like a disk. We can carve out big triangles by playing with the parameter `Alpha` in the Properties panel. Try values between 0 and 1 and look at how the triangulation comes out. Once you have been able to get a triangulation that nicely represent the two concentric rings, save a screenshot of your triangulation and upload it on github in the folder `files_for_ass4`.
 
+https://github.com/Clemson-CPSC8040/assignment-4-Supreeth095/blob/master/files_for_ass4/ANS1/ans1.png
+https://github.com/Clemson-CPSC8040/assignment-4-Supreeth095/blob/master/files_for_ass4/ANS1/ans1a.png
+https://github.com/Clemson-CPSC8040/assignment-4-Supreeth095/blob/master/files_for_ass4/ANS1/ans1b.png
+
 
 ### Part 3: Visualizing a 2D image
 
