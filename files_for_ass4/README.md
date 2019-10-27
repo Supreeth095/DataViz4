@@ -76,6 +76,23 @@ What we’d like to do is try to only select the pixels that correspond to the c
 Save a screenshot of your result and upload it on github in the folder `files_for_ass4`.
 
 
+Screenshot #1:
+
+
+![chart1](/files_for_ass4/ANS2/ans2.png)
+
+
+
+Screenshot - of the entire Screen: 
+
+
+![chart1](/files_for_ass4/ANS2/ans2a.png)
+
+
+
+
+
+
 
 ### Part 4: Visualizing 3D Image
 
