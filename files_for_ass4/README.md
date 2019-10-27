@@ -132,10 +132,28 @@ Screenshot #4:
 
 
 
+
+
+
+
 Now we’ll create a linked view in ParaView. To do so, we’ll view the same element of the Pipeline Browser in multiple renders. First, split the view vertically so that you have a top and bottom view. Next, in the bottom view, split it horizontally twice to create 3 small views (get them all of the same size).
 
 Make the slices visible in the small view windows. We want to have each slice contained in a single view. You’ll see that Paraview will set the rendered as a 3D view by default. Change this to a 2D view and use the camera controls so that you’ll see all slices facing the screen. You’ve now created a multiple linked view. If you adjust the properties of the slice in one panel, the other views should adjust accordingly.
 Save a screenshot of your result and upload it on github in the folder `files_for_ass4`.
+
+
+Screenshot #1:
+
+![chart1](/files_for_ass4/ANS4/4.2.png)
+
+
+
+Screenshot #2:
+
+
+![chart1](/files_for_ass4/ANS4/4.2a.png)
+
+
 
 
 Now let's play with a few different filters. Remove the slices and reset the render views back to one. We would like to study this dataset in three dimensions. Let's use the filter threshold once again.
