@@ -217,6 +217,14 @@ Screenshot #3:
 ![chart1](/files_for_ass4/ANS4/ans4_c.png)
 
 
+Screenshot #4:
+
+![chart1](/files_for_ass4/ANS4/4c_view2.png)
+
+
+
+
+
 
 
 
