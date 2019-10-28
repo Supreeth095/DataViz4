@@ -154,7 +154,7 @@ Save a screenshot of your result and upload it on github in the folder `files_fo
 
 Screenshot #1:
 
-![chart1](/files_for_ass4/ANS4/4.2.png)
+![chart1](/files_for_ass4/ANS4/4.2b.png)
 
 
 
@@ -173,6 +173,21 @@ Now let's play with a few different filters. Remove the slices and reset the ren
 * Based on the newly created histogram set suitable threshold values for the main view.
 Save a screenshot of your results and upload it on github in the folder `files_for_ass4`.
 
+Screenshot #1:
+
+
+![chart1](/files_for_ass4/ANS4/ans4_a.png)
+
+
+
+
+
+Screenshot #2:
+
+![chart1](/files_for_ass4/ANS4/Ans4a-view2.png)
+
+
+
 Two alternative methods for visualizing a 3d dataset are isocontours or transfer functions.
 
 * Go back to having a single view with the selected threshold
@@ -180,3 +195,31 @@ Two alternative methods for visualizing a 3d dataset are isocontours or transfer
 * In the upper right view create a isosurface with the contour filter. An isosurface represents all the points in the dataset having a specific field value. This is the generalization of isocontours that we have seen in geographical maps. Explore how different values create different isosurface by modifying `Value Range` in the `Properties` panel.
 * In the lower right view let's create a transfer functions. Activate the visualization of the whole image and change the representation method from `Outline` to `Volume`. Select `Edit Color Map` to modify the transfer function. Play around with the color editor to change the representation of the volume
 Save a screenshot of your results and upload it on github in the folder `files_for_ass4`.
+
+
+
+Screenshot #1:
+
+
+![chart1](/files_for_ass4/ANS4/ans4_b.png)
+
+
+
+
+
+Screenshot #2:
+
+![chart1](/files_for_ass4/ANS4/ans4b-view2.png)
+
+
+Screenshot #3:
+
+![chart1](/files_for_ass4/ANS4/ans4_c.png)
+
+
+
+
+
+
+
+
