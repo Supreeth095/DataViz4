@@ -60,13 +60,21 @@ If you have to try this multiple time you don't have to repeat the update of you
 
 Once the program is working, save the picture obtained and link them here in this README file.
 
-
+![1a.png](1a.png)
+![1b.png](1b.png)
+![1c.png](1c.png)
+![1d.png](1d.png)
 
 ### Developing a new module. Phase 3, stressing the module
 
 Now that the program is running properly let's use a bigger dataset. Generate a new figure by using the dataset `noisyTerrain.vtu` by using the field `RandomPointScalars`.
 
 Save the obtained image and add it here
+
+![2a.png](2a.png)
+![2b.png](2b.png)
+![2c.png](2c.png)
+![2d.png](2d.png)
 
 
 ### Bonus points (2 points) creating an animation with Paraview.
@@ -79,3 +87,5 @@ Now that we have a module and an input parameter we can easily create an animati
 - Run the animation by clicking on the Play button (green button on the main window). You should see the isocontours "growing" on your image.
 
 Record the animation in a video. Create a gif out of the video and link the gif here in this README file.
+
+[video](movie.gif)
