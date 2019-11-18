@@ -75,6 +75,7 @@ Save the obtained image and add it here
 ![2b.png](2b.png)
 ![2c.png](2c.png)
 ![2d.png](2d.png)
+![Scalar.png](Scalar.png)
 
 
 ### Bonus points (2 points) creating an animation with Paraview.
