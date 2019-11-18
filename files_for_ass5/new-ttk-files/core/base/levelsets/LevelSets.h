@@ -69,11 +69,11 @@ template <class dataType> int ttk::LevelSets::execute(dataType level, vector<vec
     float x_coOrdinate,y_coOrdinate,z_coOrdinate;
     for(int current_vertex_id=0;current_vertex_id<triangulation_->getNumberOfVertices();current_vertex_id++){
         float parent_val=inputData[current_vertex_id];
-        if( inputData[a]<min){
-                min=inputData[a];
+        if( inputData[current_vertex_id]<min){
+                min=inputData[current_vertex_id];
             }
-        else if(inputData[a]> max){
-                max=inputData[a];
+        else if(inputData[current_vertex_id]> max){
+                max=inputData[current_vertex_id];
             }
         for(int i=0;i<triangulation_->getVertexNeighborNumber(current_vertex_id);i++){
             maxima_flag=true;
