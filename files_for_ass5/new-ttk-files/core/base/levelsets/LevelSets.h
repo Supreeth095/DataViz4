@@ -49,6 +49,7 @@ namespace ttk{
 
 // template functions
 template <class dataType> int ttk::LevelSets::execute(dataType level, vector<vector<float> >& minima, vector<vector<float> >& maxima, vector<vector<float> >& lines){
+    cout<<"hi";
     //the following line is how we read the input scalar field,
     //we recall that the scalar field here is defined on the vertices of our triangulation
     //so inputData[i] will correspond to the scalar value associated to the vertex of index i
@@ -63,7 +64,7 @@ template <class dataType> int ttk::LevelSets::execute(dataType level, vector<vec
     int neighbors;
     int min;
     int max;
-
+ 
         min=inputData[0];
         max=inputData[0];
     float x_coOrdinate,y_coOrdinate,z_coOrdinate;
@@ -75,13 +76,15 @@ template <class dataType> int ttk::LevelSets::execute(dataType level, vector<vec
         else if(inputData[current_vertex_id]> max){
                 max=inputData[current_vertex_id];
             }
+        maxima_flag=true;
+        minima_flag=true;
+        
         for(int i=0;i<triangulation_->getVertexNeighborNumber(current_vertex_id);i++){
-            maxima_flag=true;
-            minima_flag=true;
+            
             triangulation_->getVertexNeighbor(current_vertex_id,i,neighbors);
             float child_val=inputData[neighbors];
             if(child_val>parent_val){
-                maxima_flag=false;                
+                maxima_flag=false;
             }
             if(child_val<parent_val){
            
@@ -104,9 +107,9 @@ template <class dataType> int ttk::LevelSets::execute(dataType level, vector<vec
             triangulation_->getVertexPoint(current_vertex_id,x_coOrdinate,y_coOrdinate,z_coOrdinate);
             minima_vector.push_back(x_coOrdinate);
             minima_vector.push_back(y_coOrdinate);
-            minima_vector.push_back(z_coOrdinate);        
+            minima_vector.push_back(z_coOrdinate);
             minima.push_back(minima_vector);
-        }  
+        }
     }
 
     float normalized_value=((level)*(max-min))+min;
@@ -170,4 +173,3 @@ return true;
 }
     return false;
 }
-
