@@ -189,23 +189,17 @@ Once your module is implemented and functioning create a visualization combining
 
 vector_field10:
 
+![sup_10_2](https://user-images.githubusercontent.com/54856447/69922531-010e6c00-146b-11ea-89ae-ad1f649cee35.png)
 
 
-![10_points-2](https://user-images.githubusercontent.com/54856447/69918663-f6d87780-1442-11ea-8a4c-4a32d72ff7e7.png)
-
-
-![10_points-3](https://user-images.githubusercontent.com/54856447/69918664-f6d87780-1442-11ea-8a7f-fa4450d0c49b.png)
-
+![sup_10_1](https://user-images.githubusercontent.com/54856447/69922532-010e6c00-146b-11ea-9074-d1d0a5420559.png)
 
 
 vector_field100:
 
+![sup_100_2](https://user-images.githubusercontent.com/54856447/69922529-010e6c00-146b-11ea-99d8-97d18770a41d.png)
 
-![100_points-1](https://user-images.githubusercontent.com/54856447/69918665-f6d87780-1442-11ea-8f03-a84e3fdde6e8.png)
-
-
-![100_points-2](https://user-images.githubusercontent.com/54856447/69918666-f6d87780-1442-11ea-8543-df1329261e5a.png)
-
+![sup_100_1](https://user-images.githubusercontent.com/54856447/69922530-010e6c00-146b-11ea-8b4f-5155d84dc75a.png)
 
 ## Bonus points - Runge Kutta algorithm (Points 2)
 
