@@ -13,6 +13,14 @@ You will notice this is encoded as an image (scalar field) having two components
 - Run the filter `Calculator` and type the following formula `(iHat*vecx) + (jHat*vecy)` below the field `Result Array Name`. Click Apply.
 - Now you have obtained a vector field visualized based on its magnitude. Activate the `Glyph` filter on what you have obtained and you will see a lot of vectors represented as arrows. It is easy to see that the vector field represented is in the surrounding of an orbit. Draw glyphs of appropriate size, apply a color map to the underlying field showing the magnitude of the vector field. Save the obtained result and attach the image here.
 
+![1](https://user-images.githubusercontent.com/54856447/69918648-c85a9c80-1442-11ea-8026-2e8ec3aaf18d.png)
+
+![2](https://user-images.githubusercontent.com/54856447/69918649-c85a9c80-1442-11ea-97ce-f0c197b1cc0d.png)
+
+![3](https://user-images.githubusercontent.com/54856447/69918650-c85a9c80-1442-11ea-8910-d05e5ef9f599.png)
+
+![4](https://user-images.githubusercontent.com/54856447/69918651-c8f33300-1442-11ea-999a-d6fc779180c5.png)
+
 
 ### Module preparation
 
@@ -119,7 +127,7 @@ point.first == floor(point.first) && point.second == floor(point.second)
 ```
 Why?
 
-[ADD YUOR ANSWER HERE]
+The reason is we assume that points are equally spaced and have coordinates with no decimals,n so grid size must ba one unit length.
 
 
 Then we can split our code into two parts: those requiring interpolation and those that do not.
@@ -178,6 +186,25 @@ Next time you want to test the module just lunch paraview from the terminal, go 
 
 
 Once your module is implemented and functioning create a visualization combining glyphs and streamlines. Improve the appearence of the figure in the way you prefer and add the picture here.
+
+vector_field10:
+
+
+
+![10_points-2](https://user-images.githubusercontent.com/54856447/69918663-f6d87780-1442-11ea-8a4c-4a32d72ff7e7.png)
+
+
+![10_points-3](https://user-images.githubusercontent.com/54856447/69918664-f6d87780-1442-11ea-8a7f-fa4450d0c49b.png)
+
+
+
+vector_field100:
+
+
+![100_points-1](https://user-images.githubusercontent.com/54856447/69918665-f6d87780-1442-11ea-8f03-a84e3fdde6e8.png)
+
+
+![100_points-2](https://user-images.githubusercontent.com/54856447/69918666-f6d87780-1442-11ea-8543-df1329261e5a.png)
 
 
 ## Bonus points - Runge Kutta algorithm (Points 2)
